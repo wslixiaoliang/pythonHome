@@ -28,8 +28,9 @@ else:
 fruit = str(input('你最喜欢的水果是什么：'))
 
 if fruit == '草莓':
-    print('你的笑容就像草莓一样，那么甜')
     print()
+    print('你的笑容就像草莓一样，那么甜')
+
     
 elif fruit == '苹果':
     print()
@@ -46,12 +47,11 @@ elif fruit == '甘蔗':
 else:
     print()
     print('爱你，是我一生的事业')
-    
-print()
-print('我想对你说一句话，我爱你')
-print()
 
-print('我想把这个爱心送给你')
+print()
+gift = str(input('我想送你一件礼物！你猜是什么礼物：'))
+print()
+print('我想把这个爱你的心送给你')
 print()
 print('''
                丘比特之心
